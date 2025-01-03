@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { TextField, Button, Typography, Box } from "@mui/material";
 
-const REACT_APP_API_BASE_URL = "http://localhost:8081/api";
+const REACT_APP_API_BASE_URL = "https://xexit-hr-portal.onrender.com/api";
 const Register = () => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
